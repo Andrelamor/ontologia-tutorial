@@ -47,6 +47,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="pt">isIngredientOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -64,6 +65,7 @@
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="pt">hasIngredient</rdfs:label>
     </owl:ObjectProperty>
     
