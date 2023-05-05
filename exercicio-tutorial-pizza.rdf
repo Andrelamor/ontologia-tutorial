@@ -58,6 +58,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
         <rdfs:label xml:lang="pt">hasTopping</rdfs:label>
     </owl:ObjectProperty>
     
