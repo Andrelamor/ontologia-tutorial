@@ -23,10 +23,64 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
+        <rdfs:label xml:lang="pt">Tuna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:label xml:lang="pt">Mushroom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405">
         <rdfs:label xml:lang="pt">PizzaTopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_23416952_8900_41c5_8fe7_6da6e400b37b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_23416952_8900_41c5_8fe7_6da6e400b37b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
+        <rdfs:label xml:lang="pt">JalapenoPepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_41089dd8_0cca_4143_849f_bc08d3941fe6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_41089dd8_0cca_4143_849f_bc08d3941fe6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
+        <rdfs:label xml:lang="pt">RedPepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
+        <rdfs:label xml:lang="pt">Ham</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_605a3a48_bf2d_4678_80f6_81d2f3ee9248 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_605a3a48_bf2d_4678_80f6_81d2f3ee9248">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
+        <rdfs:label xml:lang="pt">Prawn</rdfs:label>
     </owl:Class>
     
 
@@ -39,10 +93,146 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
+        <rdfs:label xml:lang="pt">Parmezan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_7fd10149_6906_47f9_82b3_8211ec510ef2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_7fd10149_6906_47f9_82b3_8211ec510ef2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
+        <rdfs:label xml:lang="pt">Pepperoni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:label xml:lang="pt">Tomato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+        <rdfs:label xml:lang="pt">Vegetable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:label xml:lang="pt">Olive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+        <rdfs:label xml:lang="pt">Seafood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_a7166c8d_08f4_44a1_98fe_73c29888a2dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_a7166c8d_08f4_44a1_98fe_73c29888a2dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
+        <rdfs:label xml:lang="pt">Salami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_a9b3e4a0_7f0e_4c4b_b966_8f8da0ce64a5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_a9b3e4a0_7f0e_4c4b_b966_8f8da0ce64a5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
+        <rdfs:label xml:lang="pt">GreenPepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
+        <rdfs:label xml:lang="pt">Anchovy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+        <rdfs:label xml:lang="pt">Meat</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a">
         <rdfs:label xml:lang="pt">Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_cdb4792b_ba98_4568_8f2f_4b452acd713d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_cdb4792b_ba98_4568_8f2f_4b452acd713d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:label xml:lang="pt">Onion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:label xml:lang="pt">Caper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_e82517eb_c736_41df_b397_832448479303 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_e82517eb_c736_41df_b397_832448479303">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
+        <rdfs:label xml:lang="pt">SpicyBeef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ed399a95_2299_499b_8961_958e43f31c77 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ed399a95_2299_499b_8961_958e43f31c77">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+        <rdfs:label xml:lang="pt">Mozzarella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+        <rdfs:label xml:lang="pt">Cheese</rdfs:label>
     </owl:Class>
     
 
@@ -66,6 +256,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:label xml:lang="pt">Pepper</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -77,9 +276,54 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_605a3a48_bf2d_4678_80f6_81d2f3ee9248"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_cdb4792b_ba98_4568_8f2f_4b452acd713d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_23416952_8900_41c5_8fe7_6da6e400b37b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_41089dd8_0cca_4143_849f_bc08d3941fe6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_a9b3e4a0_7f0e_4c4b_b966_8f8da0ce64a5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_7fd10149_6906_47f9_82b3_8211ec510ef2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_a7166c8d_08f4_44a1_98fe_73c29888a2dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_e82517eb_c736_41df_b397_832448479303"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
