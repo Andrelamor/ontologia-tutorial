@@ -291,6 +291,10 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
     </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
         <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
