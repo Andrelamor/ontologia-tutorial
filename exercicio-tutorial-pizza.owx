@@ -136,17 +136,16 @@
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
     </Declaration>
-    <SubClassOf>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7"/>
-        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+                <Class IRI="#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
         <Class IRI="#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
