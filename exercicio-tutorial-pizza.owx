@@ -349,6 +349,12 @@
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+        <Class IRI="#OWLClass_2d2418a0_0412_4b1a_a58d_6346a64c3ce8"/>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
+        <Class IRI="#OWLClass_99ea0b1b_0cfe_4a8f_97a6_07063295b35d"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
         <Class IRI="#OWLClass_605a3a48_bf2d_4678_80f6_81d2f3ee9248"/>
         <Class IRI="#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a"/>
