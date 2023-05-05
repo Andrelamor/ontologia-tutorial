@@ -17,6 +17,9 @@
         <Literal>Uma ontologia de pizza que descreve várias pizzas com base em suas coberturas</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
     </Declaration>
     <Declaration>
@@ -133,6 +136,17 @@
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7"/>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
         <Class IRI="#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
@@ -324,7 +338,7 @@
         <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
-            <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+            <Class IRI="#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -469,6 +483,11 @@
         <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
         <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
     </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7</IRI>
+        <Literal xml:lang="pt">CheesyPizza</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86</IRI>

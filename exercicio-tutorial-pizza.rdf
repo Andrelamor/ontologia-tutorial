@@ -98,6 +98,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_0213f338_de1f_4147_b594_7af9f6d0b9c7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="pt">CheesyPizza</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86">
@@ -403,7 +418,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">Pizza</rdfs:label>
