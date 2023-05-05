@@ -16,6 +16,30 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>Uma ontologia de pizza que descreve várias pizzas com base em suas coberturas</Literal>
     </Annotation>
+    <Declaration>
+        <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405</IRI>
+        <Literal xml:lang="pt">PizzaTopping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3</IRI>
+        <Literal xml:lang="pt">PizzaBase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a</IRI>
+        <Literal xml:lang="pt">Pizza</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 

@@ -9,6 +9,41 @@
     <owl:Ontology rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza">
         <rdfs:comment>Uma ontologia de pizza que descreve várias pizzas com base em suas coberturas</rdfs:comment>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405">
+        <rdfs:label xml:lang="pt">PizzaTopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3">
+        <rdfs:label xml:lang="pt">PizzaBase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a">
+        <rdfs:label xml:lang="pt">Pizza</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
