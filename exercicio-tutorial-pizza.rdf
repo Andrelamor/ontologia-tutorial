@@ -142,6 +142,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+        <rdfs:label xml:lang="pt">NamedPizza</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952">
@@ -210,6 +219,16 @@
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
         <rdfs:label xml:lang="pt">Olive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_99ea0b1b_0cfe_4a8f_97a6_07063295b35d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_99ea0b1b_0cfe_4a8f_97a6_07063295b35d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
+        <rdfs:comment>&quot;Uma pizza que possui apenas Mozarella e Coberturas de tomate&quot;</rdfs:comment>
+        <rdfs:label xml:lang="pt">MargheritaPizza</rdfs:label>
     </owl:Class>
     
 
