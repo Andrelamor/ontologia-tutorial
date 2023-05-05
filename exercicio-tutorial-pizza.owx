@@ -25,6 +25,11 @@
     <Declaration>
         <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
     </Declaration>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+        <Class IRI="#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405</IRI>
