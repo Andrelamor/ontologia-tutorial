@@ -23,11 +23,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_1ebaf8ba_b98a_4857_9b86_681b386c9491 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_1ebaf8ba_b98a_4857_9b86_681b386c9491">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+        <rdfs:label xml:lang="pt">isToppingOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
         <rdfs:label xml:lang="pt">hasBase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+        <rdfs:label xml:lang="pt">isIngredientOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -45,6 +65,15 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0">
         <rdfs:label xml:lang="pt">hasIngredient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
+        <rdfs:label xml:lang="pt">isBaseOf</rdfs:label>
     </owl:ObjectProperty>
     
 

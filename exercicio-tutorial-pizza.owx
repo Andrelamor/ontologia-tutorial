@@ -98,13 +98,22 @@
         <Class IRI="#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1ebaf8ba_b98a_4857_9b86_681b386c9491"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
@@ -246,6 +255,10 @@
         <Class IRI="#OWLClass_f126a30d_98d9_4e27_a757_c42e4b7e9fb2"/>
     </DisjointClasses>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_1ebaf8ba_b98a_4857_9b86_681b386c9491"/>
+        <ObjectProperty IRI="#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
         <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
     </SubObjectPropertyOf>
@@ -253,6 +266,22 @@
         <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
         <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
+        <ObjectProperty IRI="#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_1ebaf8ba_b98a_4857_9b86_681b386c9491"/>
+        <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
+        <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
+        <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+    </InverseObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a</IRI>
@@ -390,8 +419,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_1ebaf8ba_b98a_4857_9b86_681b386c9491</IRI>
+        <Literal xml:lang="pt">isToppingOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6</IRI>
         <Literal xml:lang="pt">hasBase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed</IRI>
+        <Literal xml:lang="pt">isIngredientOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -402,6 +441,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0</IRI>
         <Literal xml:lang="pt">hasIngredient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432</IRI>
+        <Literal xml:lang="pt">isBaseOf</Literal>
     </AnnotationAssertion>
 </Ontology>
 
