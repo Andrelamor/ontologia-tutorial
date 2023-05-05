@@ -98,6 +98,12 @@
         <Class IRI="#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
     </Declaration>
     <SubClassOf>
@@ -239,6 +245,14 @@
         <Class IRI="#OWLClass_f0cddca1_db83_4aa4_83d7_656919601c61"/>
         <Class IRI="#OWLClass_f126a30d_98d9_4e27_a757_c42e4b7e9fb2"/>
     </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
+        <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+        <ObjectProperty IRI="#OWLObjectProperty_aca936b3_77d0_4419_893d_13fb16fdf3f0"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a</IRI>
@@ -373,6 +387,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695</IRI>
         <Literal xml:lang="pt">Pepper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6</IRI>
+        <Literal xml:lang="pt">hasBase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc</IRI>
+        <Literal xml:lang="pt">hasTopping</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
