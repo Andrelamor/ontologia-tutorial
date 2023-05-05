@@ -17,6 +17,9 @@
         <Literal>Uma ontologia de pizza que descreve várias pizzas com base em suas coberturas</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
     </Declaration>
     <Declaration>
@@ -36,6 +39,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952"/>
@@ -125,6 +131,38 @@
         <ObjectProperty IRI="#OWLObjectProperty_b142653b_0a10_4335_b5ed_ea8f0941b432"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+        <Class IRI="#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_23416952_8900_41c5_8fe7_6da6e400b37b"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_7fd10149_6906_47f9_82b3_8211ec510ef2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
         <Class IRI="#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
     </SubClassOf>
@@ -168,6 +206,38 @@
     <SubClassOf>
         <Class IRI="#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
         <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
+        <Class IRI="#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <Class IRI="#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952"/>
@@ -383,6 +453,16 @@
         <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86</IRI>
+        <Literal>&quot;Uma pizza que possui Mozarella e Coberturas de tomate, pepperoni e jalapeño&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86</IRI>
+        <Literal xml:lang="pt">AmericanHotPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a</IRI>
         <Literal xml:lang="pt">Tuna</Literal>
@@ -405,7 +485,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_2d2418a0_0412_4b1a_a58d_6346a64c3ce8</IRI>
-        <Literal>&quot;Uma pizza que possui apenas Mozarella e Coberturas de tomate&quot;</Literal>
+        <Literal>&quot;Uma pizza que possui Mozarella e Coberturas de tomate e pepperoni&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -421,6 +501,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_43187eea_ddbe_4ede_9f61_bfa7d7022a6e</IRI>
         <Literal xml:lang="pt">NamedPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362</IRI>
+        <Literal>&quot;Uma pizza que possui Mozarella e Coberturas de tomate, azeitonas e queijo parmesão&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362</IRI>
+        <Literal xml:lang="pt">SohoPizza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
