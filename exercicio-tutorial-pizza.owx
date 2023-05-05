@@ -62,6 +62,9 @@
         <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
     </Declaration>
     <Declaration>
@@ -258,6 +261,14 @@
     <SubClassOf>
         <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685"/>
+        <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685"/>
+        <Class IRI="#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
@@ -547,6 +558,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce</IRI>
         <Literal xml:lang="pt">Tomato</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685</IRI>
+        <Literal xml:lang="pt">ProbeInconsistentTopping</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

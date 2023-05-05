@@ -301,6 +301,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+        <rdfs:label xml:lang="pt">ProbeInconsistentTopping</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_9190881a_137d_4968_8cb3_384899081102">
