@@ -262,6 +262,13 @@
     <!-- http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/andre/ontologies/2023/4/exercicio-tutorial-pizza#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="pt">Pizza</rdfs:label>
     </owl:Class>
     

@@ -180,6 +180,17 @@
         <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
+            <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_cdb4792b_ba98_4568_8f2f_4b452acd713d"/>
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
     </SubClassOf>
