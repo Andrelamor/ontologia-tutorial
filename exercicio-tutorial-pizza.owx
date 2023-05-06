@@ -245,31 +245,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
-        <ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
             <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_44c82395_b91e_4d79_bd10_50d69b2aa362"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
-        </ObjectSomeValuesFrom>
+            <ObjectUnionOf>
+                <Class IRI="#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6"/>
+                <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
+                <Class IRI="#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e"/>
+                <Class IRI="#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952"/>
@@ -313,17 +297,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_99ea0b1b_0cfe_4a8f_97a6_07063295b35d"/>
-        <ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
             <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_99ea0b1b_0cfe_4a8f_97a6_07063295b35d"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
-            <Class IRI="#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
-        </ObjectSomeValuesFrom>
+            <ObjectUnionOf>
+                <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
+                <Class IRI="#OWLClass_ed399a95_2299_499b_8961_958e43f31c77"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
