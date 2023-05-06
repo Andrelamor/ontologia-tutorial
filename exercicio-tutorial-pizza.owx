@@ -50,6 +50,9 @@
         <Class IRI="#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_5d3a375a_787b_4c14_8e15_fcee6eef695b"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_605a3a48_bf2d_4678_80f6_81d2f3ee9248"/>
     </Declaration>
     <Declaration>
@@ -258,6 +261,20 @@
     <SubClassOf>
         <Class IRI="#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952"/>
         <Class IRI="#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5d3a375a_787b_4c14_8e15_fcee6eef695b"/>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5d3a375a_787b_4c14_8e15_fcee6eef695b"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+            <ObjectUnionOf>
+                <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+                <Class IRI="#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_605a3a48_bf2d_4678_80f6_81d2f3ee9248"/>
@@ -551,6 +568,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_5b850967_c9f6_4fb9_91b8_a1ead1f56952</IRI>
         <Literal xml:lang="pt">Ham</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5d3a375a_787b_4c14_8e15_fcee6eef695b</IRI>
+        <Literal xml:lang="pt">VegetarianPizza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
