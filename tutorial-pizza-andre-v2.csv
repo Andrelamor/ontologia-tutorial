@@ -10,3 +10,4 @@
 4,4,"Crie classes Pizza, PizzaTopping e PizzaBase","Classes",,
 4,5,"Faça com que "Pizza", "PizzaTopping" e "PizzaBase" sejam classes disjuntas","Classes disjuntas",,
 4,6,"criar "ThinAndCrispy" e "DeepPan" como subclasses de "PizzaBase"","Subclasses disjuntas",,
+4,7,"Crie algumas subclasses de "PizzaTopping","Subclasses",,
