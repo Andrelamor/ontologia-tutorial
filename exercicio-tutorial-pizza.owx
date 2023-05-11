@@ -80,6 +80,9 @@
         <Class IRI="#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_8d85cb05_bc9c_4647_a6be_110eecdfb5e2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
     </Declaration>
     <Declaration>
@@ -181,6 +184,26 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#OWLClass_8d85cb05_bc9c_4647_a6be_110eecdfb5e2"/>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_8d85cb05_bc9c_4647_a6be_110eecdfb5e2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#OWLObjectProperty_5ce0535b_8ef5_4400_b713_a36c3204c5cb"/>
+                        <Class IRI="#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
         <ObjectUnionOf>
             <Class IRI="#OWLClass_177daf16_812d_49d4_bc9b_35b076e00a08"/>
@@ -247,6 +270,13 @@
     <SubClassOf>
         <Class IRI="#OWLClass_23416952_8900_41c5_8fe7_6da6e400b37b"/>
         <Class IRI="#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_23416952_8900_41c5_8fe7_6da6e400b37b"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_5ce0535b_8ef5_4400_b713_a36c3204c5cb"/>
+            <Class IRI="#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_2d2418a0_0412_4b1a_a58d_6346a64c3ce8"/>
@@ -680,6 +710,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_872941f6_5327_4dc6_8f36_c2b92c44d685</IRI>
         <Literal xml:lang="pt">ProbeInconsistentTopping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8d85cb05_bc9c_4647_a6be_110eecdfb5e2</IRI>
+        <Literal xml:lang="pt">SpicyPizza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
