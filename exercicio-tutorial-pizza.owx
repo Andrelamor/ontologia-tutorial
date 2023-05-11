@@ -26,6 +26,9 @@
         <Class IRI="#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_177daf16_812d_49d4_bc9b_35b076e00a08"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737"/>
     </Declaration>
     <Declaration>
@@ -36,6 +39,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_2d2418a0_0412_4b1a_a58d_6346a64c3ce8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2e57d9fb_bcbf_4f7f_a800_2ca62c9e696a"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_41089dd8_0cca_4143_849f_bc08d3941fe6"/>
@@ -60,6 +66,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_7fd10149_6906_47f9_82b3_8211ec510ef2"/>
@@ -89,6 +98,9 @@
         <Class IRI="#OWLClass_a9b3e4a0_7f0e_4c4b_b966_8f8da0ce64a5"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a"/>
     </Declaration>
     <Declaration>
@@ -102,6 +114,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e649b6e4_79d0_4b06_af7b_54ec3d9a12e9"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_e82517eb_c736_41df_b397_832448479303"/>
@@ -129,6 +144,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_5ce0535b_8ef5_4400_b713_a36c3204c5cb"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
@@ -161,6 +179,14 @@
                 </ObjectUnionOf>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
+        <ObjectUnionOf>
+            <Class IRI="#OWLClass_177daf16_812d_49d4_bc9b_35b076e00a08"/>
+            <Class IRI="#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79"/>
+            <Class IRI="#OWLClass_e649b6e4_79d0_4b06_af7b_54ec3d9a12e9"/>
+        </ObjectUnionOf>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#OWLClass_054f99c8_641d_418a_a59b_02293dc00e86"/>
@@ -209,6 +235,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_10a2dd1d_0f87_4e3c_b561_6284740eea6a"/>
         <Class IRI="#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_177daf16_812d_49d4_bc9b_35b076e00a08"/>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737"/>
@@ -291,6 +321,10 @@
         <Class IRI="#OWLClass_eec462d3_894c_4df8_9025_a1435ec89062"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79"/>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_7fd10149_6906_47f9_82b3_8211ec510ef2"/>
         <Class IRI="#OWLClass_c7c7f4b6_54d6_4b1d_acf8_66a007d68f7a"/>
     </SubClassOf>
@@ -341,6 +375,10 @@
         <Class IRI="#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
+        <Class IRI="#OWLClass_2e57d9fb_bcbf_4f7f_a800_2ca62c9e696a"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a"/>
         <Class IRI="#OWLClass_9af895ef_8ed9_4c2e_9b45_d86f7baa38ed"/>
     </SubClassOf>
@@ -366,6 +404,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556"/>
         <Class IRI="#OWLClass_9190881a_137d_4968_8cb3_384899081102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e649b6e4_79d0_4b06_af7b_54ec3d9a12e9"/>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_e82517eb_c736_41df_b397_832448479303"/>
@@ -403,12 +445,23 @@
         <Class IRI="#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#OWLClass_177daf16_812d_49d4_bc9b_35b076e00a08"/>
+        <Class IRI="#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79"/>
+        <Class IRI="#OWLClass_e649b6e4_79d0_4b06_af7b_54ec3d9a12e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737"/>
         <Class IRI="#OWLClass_82eb740f_cdee_495a_a917_8927cd8c21ce"/>
         <Class IRI="#OWLClass_96a139e2_81ce_402d_b475_e140c5b6a00e"/>
         <Class IRI="#OWLClass_cdb4792b_ba98_4568_8f2f_4b452acd713d"/>
         <Class IRI="#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556"/>
         <Class IRI="#OWLClass_fc278e7a_2412_44ea_b030_4ecb2070e695"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
+        <Class IRI="#OWLClass_2e57d9fb_bcbf_4f7f_a800_2ca62c9e696a"/>
+        <Class IRI="#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
+        <Class IRI="#OWLClass_ccec32f7_3ff0_44ed_8cc9_f924a4c9ea6a"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_2193132d_611e_43ef_9b8e_c7c1fd4dd405"/>
@@ -471,6 +524,9 @@
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
     </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_5ce0535b_8ef5_4400_b713_a36c3204c5cb"/>
+    </FunctionalObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed"/>
     </TransitiveObjectProperty>
@@ -492,6 +548,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_21e51a59_b777_4dc0_ae72_eb0dadfda5d6"/>
         <Class IRI="#OWLClass_6894fb88_3e68_4a7f_afb7_01573d89e8c3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_5ce0535b_8ef5_4400_b713_a36c3204c5cb"/>
+        <Class IRI="#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_6e23eea5_3c63_4f40_8607_6f90248f12bc"/>
@@ -523,6 +583,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_177daf16_812d_49d4_bc9b_35b076e00a08</IRI>
+        <Literal xml:lang="pt">Mild</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_21510d23_6152_45b5_a8ca_ec7fd91b9737</IRI>
         <Literal xml:lang="pt">Mushroom</Literal>
     </AnnotationAssertion>
@@ -545,6 +610,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2d2418a0_0412_4b1a_a58d_6346a64c3ce8</IRI>
         <Literal xml:lang="pt">AmericanaPizza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2e57d9fb_bcbf_4f7f_a800_2ca62c9e696a</IRI>
+        <Literal xml:lang="pt">ValuePartition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -590,6 +660,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_716a80c5_09bb_457c_afef_e756d02ac3e6</IRI>
         <Literal xml:lang="pt">Parmezan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_7d168526_3f73_4034_8cf9_5dc2b6b9dc79</IRI>
+        <Literal xml:lang="pt">Hot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -643,6 +718,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_bb95067e_4e72_4ad2_8b79_7380acbd0ac8</IRI>
+        <Literal xml:lang="pt">SpicinessValuePartition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_c7987288_a009_4918_b4d1_8c42ea78c18a</IRI>
         <Literal xml:lang="pt">Anchovy</Literal>
     </AnnotationAssertion>
@@ -665,6 +745,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e12145f7_f4f8_4f47_9178_71c4c7886556</IRI>
         <Literal xml:lang="pt">Caper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e649b6e4_79d0_4b06_af7b_54ec3d9a12e9</IRI>
+        <Literal xml:lang="pt">Medium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -710,6 +795,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_56a676aa_96ac_4344_b253_971e9ce805ed</IRI>
         <Literal xml:lang="pt">isIngredientOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_5ce0535b_8ef5_4400_b713_a36c3204c5cb</IRI>
+        <Literal xml:lang="pt">hasSpiciness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
