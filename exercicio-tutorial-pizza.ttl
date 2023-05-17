@@ -87,8 +87,7 @@
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_182e3556_4e64_4347_ab13_44e6102f2eb4
 :OWLClass_182e3556_4e64_4347_ab13_44e6102f2eb4 rdf:type owl:Class ;
-                                               owl:equivalentClass :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 ,
-                                                                   [ owl:intersectionOf ( :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
+                                               owl:equivalentClass [ owl:intersectionOf ( :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
                                                                                           [ rdf:type owl:Restriction ;
                                                                                             owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
                                                                                             owl:someValuesFrom :OWLClass_8265fd1e_38f8_42e9_b5fa_fded2abd1c85
