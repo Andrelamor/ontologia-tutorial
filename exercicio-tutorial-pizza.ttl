@@ -16,6 +16,7 @@
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_509c8fd7_6a00_44c8_b9d3_ae6b5ebd0c63
 :OWLObjectProperty_509c8fd7_6a00_44c8_b9d3_ae6b5ebd0c63 rdf:type owl:ObjectProperty ;
                                                         owl:inverseOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
+                                                        rdf:type owl:TransitiveProperty ;
                                                         rdfs:label "isIngredientOf"@pt .
 
 
@@ -40,7 +41,8 @@
 
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c
-:OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c rdf:type owl:ObjectProperty ;
+:OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c rdf:type owl:ObjectProperty ,
+                                                                 owl:TransitiveProperty ;
                                                         rdfs:label "hasIngredient"@pt .
 
 
