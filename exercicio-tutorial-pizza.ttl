@@ -13,9 +13,21 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75
+:OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
+                                                        rdfs:label "hasTopping"@pt .
+
+
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c
 :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c rdf:type owl:ObjectProperty ;
                                                         rdfs:label "hasIngredient"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b
+:OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
+                                                        rdfs:label "hasBse"@pt .
 
 
 #################################################################
