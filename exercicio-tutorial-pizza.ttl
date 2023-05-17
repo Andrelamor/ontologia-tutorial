@@ -168,6 +168,11 @@
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
 :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 rdf:type owl:Class ;
+                                               rdfs:subClassOf owl:Thing ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b ;
+                                                                 owl:someValuesFrom :OWLClass_4822385d_bd3a_44d2_a813_48e152aa7fa1
+                                                               ] ;
                                                rdfs:label "Pizza"@pt .
 
 
