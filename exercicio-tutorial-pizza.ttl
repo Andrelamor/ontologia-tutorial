@@ -63,6 +63,19 @@
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_3c1f6c7b_9e51_425c_9636_3edafb3c8798
+:OWLClass_3c1f6c7b_9e51_425c_9636_3edafb3c8798 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ;
+                                               rdfs:comment "Uma pizza que possui apenas Mozarella e Coberturas de tomate" ;
+                                               rdfs:label "MargheritaPizza"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2
+:OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 ;
+                                               rdfs:label "NamedPizza"@pt .
+
+
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLClass_1843da15_abbc_404e_847c_e3cbe37e348a
 :OWLClass_1843da15_abbc_404e_847c_e3cbe37e348a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_dc11b0b7_69a7_4ae7_ba98_7fe1616e2fe5 ;
