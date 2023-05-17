@@ -65,7 +65,11 @@
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_3c1f6c7b_9e51_425c_9636_3edafb3c8798
 :OWLClass_3c1f6c7b_9e51_425c_9636_3edafb3c8798 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ;
+                                               rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
+                                                               ] ;
                                                rdfs:comment "Uma pizza que possui apenas Mozarella e Coberturas de tomate" ;
                                                rdfs:label "MargheritaPizza"@pt .
 
