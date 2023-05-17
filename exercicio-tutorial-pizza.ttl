@@ -13,18 +13,38 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_509c8fd7_6a00_44c8_b9d3_ae6b5ebd0c63
+:OWLObjectProperty_509c8fd7_6a00_44c8_b9d3_ae6b5ebd0c63 rdf:type owl:ObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
+                                                        rdfs:label "isIngredientOf"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_9b90b4e8_20e6_4e9a_939f_69514c91d35a
+:OWLObjectProperty_9b90b4e8_20e6_4e9a_939f_69514c91d35a rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_509c8fd7_6a00_44c8_b9d3_ae6b5ebd0c63 ;
+                                                        owl:inverseOf :OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b ;
+                                                        rdfs:label "isBaseOf"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_cadda47b_2439_4d16_9831_4fde5f737c4e
+:OWLObjectProperty_cadda47b_2439_4d16_9831_4fde5f737c4e rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_509c8fd7_6a00_44c8_b9d3_ae6b5ebd0c63 ;
+                                                        owl:inverseOf :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                        rdfs:label "isToppingOf"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75
 :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
                                                         rdfs:label "hasTopping"@pt .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c
 :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c rdf:type owl:ObjectProperty ;
                                                         rdfs:label "hasIngredient"@pt .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b
 :OWLObjectProperty_ef8f53d5_337e_46f9_a441_8499c7a7960b rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
                                                         rdfs:label "hasBse"@pt .
