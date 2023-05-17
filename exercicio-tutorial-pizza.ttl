@@ -126,8 +126,7 @@
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_63eb1855_1b57_4258_a100_62929b7e2cbe
 :OWLClass_63eb1855_1b57_4258_a100_62929b7e2cbe rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_1c8bd2f2_85a7_44c1_97cd_d1d8cc98d5a7 ,
-                                                               :OWLClass_8265fd1e_38f8_42e9_b5fa_fded2abd1c85 ;
+                                               rdfs:subClassOf :OWLClass_8265fd1e_38f8_42e9_b5fa_fded2abd1c85 ;
                                                rdfs:comment "Esta classe deve ser inconsistente quando a ontologia for classificada" ;
                                                rdfs:label "ProbeInconsistentTopping"@pt .
 
