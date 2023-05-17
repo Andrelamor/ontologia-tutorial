@@ -63,6 +63,28 @@
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_05d2f6c7_2799_4ebb_aff0_6860325933e1
+:OWLClass_05d2f6c7_2799_4ebb_aff0_6860325933e1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_27126428_0ad0_4b91_856a_f231d9f71700
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_27ac9fac_4326_47c1_b3f5_5c8fb6968b2d
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_4afe9c3c_c7b4_427f_8e3e_a30e22e9592b
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
+                                                               ] ;
+                                               rdfs:label "AmericanHotPizza"@pt .
+
+
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_3c1f6c7b_9e51_425c_9636_3edafb3c8798
 :OWLClass_3c1f6c7b_9e51_425c_9636_3edafb3c8798 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ,
@@ -100,6 +122,28 @@
                                                                  owl:someValuesFrom :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
                                                                ] ;
                                                rdfs:label "AmericanaPizza"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_7be45bef_59ef_4721_8942_7bd485303084
+:OWLClass_7be45bef_59ef_4721_8942_7bd485303084 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_3da42706_1ac6_4929_b8e0_2a01f9814893
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_4afe9c3c_c7b4_427f_8e3e_a30e22e9592b
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:someValuesFrom :OWLClass_748f2a8d_5e32_488e_bc67_2de2de1f0996
+                                                               ] ;
+                                               rdfs:label "SohoPizza"@pt .
 
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLClass_1843da15_abbc_404e_847c_e3cbe37e348a
