@@ -37,6 +37,7 @@
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18/OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75
 :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_e57ad5af_522a_4e54_84cc_b3999fffe32c ;
+                                                        rdfs:range :OWLClass_dc11b0b7_69a7_4ae7_ba98_7fe1616e2fe5 ;
                                                         rdfs:label "hasTopping"@pt .
 
 
