@@ -65,15 +65,18 @@
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_293b6301_eefd_4e2d_8dbe_fefd2cbb42fe
 :OWLClass_293b6301_eefd_4e2d_8dbe_fefd2cbb42fe rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:allValuesFrom [ rdf:type owl:Class ;
-                                                                                     owl:unionOf ( :OWLClass_1c8bd2f2_85a7_44c1_97cd_d1d8cc98d5a7
-                                                                                                   :OWLClass_8265fd1e_38f8_42e9_b5fa_fded2abd1c85
-                                                                                                 )
-                                                                                   ]
-                                                               ] ;
+                                               owl:equivalentClass [ owl:intersectionOf ( :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                                            owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                                                owl:unionOf ( :OWLClass_1c8bd2f2_85a7_44c1_97cd_d1d8cc98d5a7
+                                                                                                                              :OWLClass_8265fd1e_38f8_42e9_b5fa_fded2abd1c85
+                                                                                                                            )
+                                                                                                              ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
                                                rdfs:label "VegetarianPizza"@pt .
 
 
