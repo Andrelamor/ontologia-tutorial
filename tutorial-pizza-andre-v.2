@@ -263,19 +263,13 @@
                                                rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ,
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:someValuesFrom :OWLClass_3da42706_1ac6_4929_b8e0_2a01f9814893
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:someValuesFrom :OWLClass_4afe9c3c_c7b4_427f_8e3e_a30e22e9592b
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:someValuesFrom :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:someValuesFrom :OWLClass_748f2a8d_5e32_488e_bc67_2de2de1f0996
+                                                                 owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                     owl:unionOf ( :OWLClass_3da42706_1ac6_4929_b8e0_2a01f9814893
+                                                                                                   :OWLClass_4afe9c3c_c7b4_427f_8e3e_a30e22e9592b
+                                                                                                   :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
+                                                                                                   :OWLClass_748f2a8d_5e32_488e_bc67_2de2de1f0996
+                                                                                                 )
+                                                                                   ]
                                                                ] ;
                                                rdfs:label "SohoPizza"@pt .
 
