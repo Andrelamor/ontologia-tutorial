@@ -156,11 +156,11 @@
                                                rdfs:subClassOf :OWLClass_51ed816c_616f_487f_b0b5_2f8ba74c52d2 ,
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:someValuesFrom :OWLClass_4afe9c3c_c7b4_427f_8e3e_a30e22e9592b
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
-                                                                 owl:someValuesFrom :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
+                                                                 owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                     owl:unionOf ( :OWLClass_4afe9c3c_c7b4_427f_8e3e_a30e22e9592b
+                                                                                                   :OWLClass_63b39b1f_a3a8_4a0d_85a5_cb06dd507051
+                                                                                                 )
+                                                                                   ]
                                                                ] ;
                                                rdfs:comment "Uma pizza que possui apenas Mozarella e Coberturas de tomate" ;
                                                rdfs:label "MargheritaPizza"@pt .
