@@ -94,8 +94,7 @@
 
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_4100dabb_1422_4ce0_b9e0_8ceb256a6299
 :OWLClass_4100dabb_1422_4ce0_b9e0_8ceb256a6299 rdf:type owl:Class ;
-                                               owl:equivalentClass :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 ,
-                                                                   [ owl:intersectionOf ( :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
+                                               owl:equivalentClass [ owl:intersectionOf ( :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
                                                                                           [ rdf:type owl:Restriction ;
                                                                                             owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
                                                                                             owl:minCardinality "3"^^xsd:nonNegativeInteger
@@ -135,6 +134,17 @@
                                                rdfs:label "Medium"@pt .
 
 
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_ce18a57d_0b62_4513_9f6f_d42906baabea
+:OWLClass_ce18a57d_0b62_4513_9f6f_d42906baabea rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0ef3df86_289d_438c_b113_7dc6e9409a75 ;
+                                                                 owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass :OWLClass_8265fd1e_38f8_42e9_b5fa_fded2abd1c85
+                                                               ] ;
+                                               rdfs:label "FourCheesePizza"@pt .
+
+
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-18#OWLClass_f9042b67_e73c_41fb_8944_2ec9dd392e17
 :OWLClass_f9042b67_e73c_41fb_8944_2ec9dd392e17 rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34
@@ -152,6 +162,7 @@
                                                                                         ) ;
                                                                      rdf:type owl:Class
                                                                    ] ;
+                                               rdfs:subClassOf :OWLClass_8cb29e7d_0442_4ba8_bda7_8b93a9b65c34 ;
                                                rdfs:label "SpicyPizza"@pt .
 
 
