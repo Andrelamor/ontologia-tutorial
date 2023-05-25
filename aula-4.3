@@ -1,0 +1,159 @@
+@prefix : <http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/> .
+
+<http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d
+:OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e ;
+                                                        rdfs:domain :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
+                                                        rdfs:range :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                                        rdfs:label "organize"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e
+:OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                                        rdfs:range :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
+                                                        rdfs:label "isOrganizedBy"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLObjectProperty_3d8d0adf_f4c8_4451_8015_e1ca61a1e8ca
+:OWLObjectProperty_3d8d0adf_f4c8_4451_8015_e1ca61a1e8ca rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_c4d51362_f619_4b5c_86db_a53feb9121b8 ;
+                                                        rdfs:domain :OWLClass_f041b437_b6e4_47e0_9604_98dd3201e1c2 ;
+                                                        rdfs:range :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                                        rdfs:label "isPartOf"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10
+:OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
+                                                        rdfs:domain :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
+                                                        rdfs:range :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                                        rdfs:label "lecture"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLObjectProperty_c4d51362_f619_4b5c_86db_a53feb9121b8
+:OWLObjectProperty_c4d51362_f619_4b5c_86db_a53feb9121b8 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                                        rdfs:range :OWLClass_f041b437_b6e4_47e0_9604_98dd3201e1c2 ;
+                                                        rdfs:label "has"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2
+:OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                                        rdfs:range :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
+                                                        rdfs:label "isLecturedBy"@pt .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
+:OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d ;
+                                                                 owl:someValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                                                                 owl:someValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+                                                               ] ;
+                                               owl:disjointWith :OWLClass_3b2a4949_7c47_469f_993e_e2d28927b87c ;
+                                               rdfs:label "ProfessorTitular"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_3b2a4949_7c47_469f_993e_e2d28927b87c
+:OWLClass_3b2a4949_7c47_469f_993e_e2d28927b87c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d ;
+                                                                 owl:allValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                                                                 owl:allValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+                                                               ] ;
+                                               rdfs:label "ProfessorAssistente"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_76efff86_e647_41b6_a411_6933d68c07ec
+:OWLClass_76efff86_e647_41b6_a411_6933d68c07ec rdf:type owl:Class ;
+                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d ;
+                                                                 owl:someValuesFrom :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                                                                 owl:someValuesFrom :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
+                                                               ] ;
+                                               rdfs:label "Professor"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_b5811fc8_b550_44da_b9a1_ea734f2e031d
+:OWLClass_b5811fc8_b550_44da_b9a1_ea734f2e031d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e ;
+                                                                 owl:allValuesFrom :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
+                                                                 owl:allValuesFrom :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
+                                                               ] ;
+                                               owl:disjointWith :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1 ;
+                                               rdfs:label "CursoRegular"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+:OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
+                                               rdfs:label "CursoLaboratorio"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
+:OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b rdf:type owl:Class ;
+                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e ;
+                                                                 owl:someValuesFrom :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec
+                                                               ] ;
+                                               rdfs:label "Curso"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#OWLClass_f041b437_b6e4_47e0_9604_98dd3201e1c2
+:OWLClass_f041b437_b6e4_47e0_9604_98dd3201e1c2 rdf:type owl:Class ;
+                                               rdfs:label "Licao"@pt .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec
+                :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
+                :OWLClass_f041b437_b6e4_47e0_9604_98dd3201e1c2
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
