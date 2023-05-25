@@ -1,0 +1,132 @@
+@prefix : <http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24/> .
+
+<http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24> rdf:type owl:Ontology ;
+                                                                           <http://ainf.aau.at/ontodebug#testCase> [ <http://ainf.aau.at/ontodebug#axiom> "OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519 DisjointWith OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889" ;
+                                                                                                                     <http://ainf.aau.at/ontodebug#type> "true"^^xsd:boolean
+                                                                                                                   ] ,
+                                                                                                                   [ <http://ainf.aau.at/ontodebug#axiom> "OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519 DisjointWith OWLClass_c312a1ab_1414_46c5_8952_37c10010d192" ;
+                                                                                                                     <http://ainf.aau.at/ontodebug#type> "true"^^xsd:boolean
+                                                                                                                   ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://ainf.aau.at/ontodebug#axiom
+<http://ainf.aau.at/ontodebug#axiom> rdf:type owl:AnnotationProperty ;
+                                     rdfs:subPropertyOf <http://ainf.aau.at/ontodebug#testCase> .
+
+
+###  http://ainf.aau.at/ontodebug#testCase
+<http://ainf.aau.at/ontodebug#testCase> rdf:type owl:AnnotationProperty .
+
+
+###  http://ainf.aau.at/ontodebug#type
+<http://ainf.aau.at/ontodebug#type> rdf:type owl:AnnotationProperty ;
+                                    rdfs:subPropertyOf <http://ainf.aau.at/ontodebug#testCase> .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLObjectProperty_29fa98ed_ab9e_47e5_a8b6_7416ae91456a
+:OWLObjectProperty_29fa98ed_ab9e_47e5_a8b6_7416ae91456a rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_343f3e9c_4162_4052_ac6f_993b1b861150 ;
+                                                        rdfs:domain :OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889 ;
+                                                        rdfs:range :OWLClass_c312a1ab_1414_46c5_8952_37c10010d192 ;
+                                                        rdfs:label "has"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLObjectProperty_343f3e9c_4162_4052_ac6f_993b1b861150
+:OWLObjectProperty_343f3e9c_4162_4052_ac6f_993b1b861150 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_c312a1ab_1414_46c5_8952_37c10010d192 ;
+                                                        rdfs:range :OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889 ;
+                                                        rdfs:label "isPartOf"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLObjectProperty_c7ab9515_b923_471a_a15b_a623097cd31c
+:OWLObjectProperty_c7ab9515_b923_471a_a15b_a623097cd31c rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_d0bddca7_d589_4ce1_9e72_8f2fa7b7aae8 ;
+                                                        rdfs:domain :OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519 ;
+                                                        rdfs:range :OWLClass_af3d6ccb_7b01_4d5e_b705_1c12e3c40871 ;
+                                                        rdfs:label "isNeededBy"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLObjectProperty_d0bddca7_d589_4ce1_9e72_8f2fa7b7aae8
+:OWLObjectProperty_d0bddca7_d589_4ce1_9e72_8f2fa7b7aae8 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain :OWLClass_af3d6ccb_7b01_4d5e_b705_1c12e3c40871 ;
+                                                        rdfs:range :OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519 ;
+                                                        rdfs:label "needs"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLObjectProperty_dcdaddf4_f650_4464_8f32_24c5b1d9475d
+:OWLObjectProperty_dcdaddf4_f650_4464_8f32_24c5b1d9475d rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdf:type owl:ReflexiveProperty ;
+                                                        rdfs:label "isReplacedBy"@pt .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLClass_16d93a5e_a136_41ed_a5bf_d99376f6beef
+:OWLClass_16d93a5e_a136_41ed_a5bf_d99376f6beef rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889 ;
+                                               owl:disjointWith :OWLClass_af3d6ccb_7b01_4d5e_b705_1c12e3c40871 ;
+                                               rdfs:label "Não-prescrito"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519
+:OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519 rdf:type owl:Class ;
+                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_c7ab9515_b923_471a_a15b_a623097cd31c ;
+                                                                 owl:allValuesFrom :OWLClass_af3d6ccb_7b01_4d5e_b705_1c12e3c40871
+                                                               ] ;
+                                               owl:disjointWith :OWLClass_c312a1ab_1414_46c5_8952_37c10010d192 ;
+                                               rdfs:label "ReceitaMedica"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889
+:OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_c312a1ab_1414_46c5_8952_37c10010d192 ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_dcdaddf4_f650_4464_8f32_24c5b1d9475d ;
+                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass :OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889
+                                                               ] ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_29fa98ed_ab9e_47e5_a8b6_7416ae91456a ;
+                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass :OWLClass_c312a1ab_1414_46c5_8952_37c10010d192
+                                                               ] ;
+                                               rdfs:label "Medicamento"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLClass_af3d6ccb_7b01_4d5e_b705_1c12e3c40871
+:OWLClass_af3d6ccb_7b01_4d5e_b705_1c12e3c40871 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_6daf1df5_741c_46df_8944_fc29c5bf5889 ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_d0bddca7_d589_4ce1_9e72_8f2fa7b7aae8 ;
+                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                 owl:onClass :OWLClass_489545e4_53bd_4eaf_a099_c0eba8a26519
+                                                               ] ;
+                                               rdfs:label "Prescrito"@pt .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-24#OWLClass_c312a1ab_1414_46c5_8952_37c10010d192
+:OWLClass_c312a1ab_1414_46c5_8952_37c10010d192 rdf:type owl:Class ;
+                                               rdfs:label "SubstanciaAtiva"@pt .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
