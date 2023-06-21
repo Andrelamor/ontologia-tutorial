@@ -12,36 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#assistLectures
-:assistLectures rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
-                owl:inverseOf :isLecturedByAssist ;
-                rdfs:range [ rdf:type owl:Restriction ;
-                             owl:onProperty :assistLectures ;
-                             owl:allValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
-                           ] .
-
-
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#isLecturedByAssist
-:isLecturedByAssist rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 .
-
-
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#isLecturedByTitular
-:isLecturedByTitular rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
-                     owl:inverseOf :titularLectures .
-
-
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#titularLectures
-:titularLectures rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
-                 rdfs:range [ rdf:type owl:Restriction ;
-                              owl:onProperty :titularLectures ;
-                              owl:someValuesFrom :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
-                            ] .
-
-
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d
 :OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf owl:topObjectProperty ;
@@ -91,6 +61,36 @@
                                                         rdfs:domain :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
                                                         rdfs:range :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
                                                         rdfs:label "isLecturedBy"@en .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/assistLectures
+:assistLectures rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                owl:inverseOf :isLecturedByAssist ;
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty :assistLectures ;
+                             owl:allValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+                           ] .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/isLecturedByAssist
+:isLecturedByAssist rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/isLecturedByTitular
+:isLecturedByTitular rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
+                     owl:inverseOf :titularLectures .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/titularLectures
+:titularLectures rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty :titularLectures ;
+                              owl:someValuesFrom :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
+                            ] .
 
 
 #################################################################
