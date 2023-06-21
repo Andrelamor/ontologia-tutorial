@@ -12,6 +12,36 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#assistLectures
+:assistLectures rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                owl:inverseOf :isLecturedByAssist ;
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty :assistLectures ;
+                             owl:allValuesFrom :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1
+                           ] .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#isLecturedByAssist
+:isLecturedByAssist rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#isLecturedByTitular
+:isLecturedByTitular rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
+                     owl:inverseOf :titularLectures .
+
+
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#titularLectures
+:titularLectures rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :OWLObjectProperty_af1fcab5_72a7_4a4f_9048_56e7e6ef3e10 ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty :titularLectures ;
+                              owl:someValuesFrom :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
+                            ] .
+
+
 ###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d
 :OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf owl:topObjectProperty ;
@@ -67,19 +97,19 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#credits
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/credits
 :credits rdf:type owl:DatatypeProperty ;
          rdfs:domain :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ;
          rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#email
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/email
 :email rdf:type owl:DatatypeProperty ;
        rdfs:domain :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
        rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#title
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/title
 :title rdf:type owl:DatatypeProperty ;
        rdfs:domain :OWLClass_76efff86_e647_41b6_a411_6933d68c07ec ;
        rdfs:range xsd:string .
@@ -89,20 +119,17 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#CursoRegular
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/CursoRegular
 :CursoRegular rdf:type owl:Class ;
-              owl:equivalentClass [ owl:intersectionOf ( :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty :OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e ;
-                                                           owl:allValuesFrom :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
-                                                         ]
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
-                                                           owl:allValuesFrom :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] ;
+              rdfs:subClassOf :OWLClass_d8119ecd_86f1_400e_a498_da4eaa216e3b ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e ;
+                                owl:allValuesFrom :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :OWLObjectProperty_f992805d_3299_4da8_b84b_33f9246f72b2 ;
+                                owl:allValuesFrom :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e
+                              ] ;
               owl:disjointWith :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1 .
 
 
@@ -168,14 +195,14 @@
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#Exercício_I
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/Exercício_I
 :Exercício_I rdf:type owl:NamedIndividual ,
                       :OWLClass_f041b437_b6e4_47e0_9604_98dd3201e1c2 ;
              owl:differentFrom :Web_Semântica ;
              :OWLObjectProperty_3d8d0adf_f4c8_4451_8015_e1ca61a1e8ca :Web_Semântica .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#José
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/José
 :José rdf:type owl:NamedIndividual ,
                :OWLClass_3b2a4949_7c47_469f_993e_e2d28927b87c ;
       owl:differentFrom :Maria ;
@@ -185,7 +212,7 @@
       :title "" .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#Maria
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/Maria
 :Maria rdf:type owl:NamedIndividual ,
                 :OWLClass_3882e185_2543_4908_9ef6_e9bb85a0604e ;
        :OWLObjectProperty_0332a3dc_6b38_4832_af95_7fd4dbf8320d :Web_Semântica ;
@@ -194,7 +221,7 @@
        :title "" .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#Ontologia
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/Ontologia
 :Ontologia rdf:type owl:NamedIndividual ,
                     :OWLClass_c7c52261_392a_4f1f_b0fa_8a5f6d93add1 ;
            owl:differentFrom :Web_Semântica ;
@@ -203,7 +230,7 @@
            :credits  .
 
 
-###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23#Web_Semântica
+###  http://www.semanticweb.org/andre/ontologies/2023/4/untitled-ontology-23/Web_Semântica
 :Web_Semântica rdf:type owl:NamedIndividual ,
                         :CursoRegular ;
                :OWLObjectProperty_0caff34a_032a_47a5_9188_7064851cc42e :Maria ;
